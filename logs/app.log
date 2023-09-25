@@ -96,3 +96,23 @@ opex
 2023-09-24 19:39:57.805 [main] WARN  org.example.Application -  
 2023-09-24 19:39:57.805 [main] ERROR org.example.Application -  
 2023-09-24 19:39:57.805 [main] ERROR org.example.Application - java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3;	at org.example.Application.logWithExceptionHandling(Application.java:28);	at org.example.Application.main(Application.java:38) 
+2023-09-24 19:46:32.747 [main] INFO  org.example.Application - user with ID '1234' just signed in
+  
+2023-09-24 19:46:32.749 [main] WARN  org.example.Application - Potential security vulnerability detected in user input: '...'
+  
+2023-09-24 19:46:32.749 [main] ERROR org.example.Application - Failed to connect to database: java.sql.SQLException: Connection refused
+  
+2023-09-24 19:46:32.749 [main] ERROR org.example.Application - An exception has been caught.
+ java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3;	at org.example.Application.logWithExceptionHandling(Application.java:28);	at org.example.Application.main(Application.java:38) 
+2023-09-24 19:46:59.304 [main] INFO  org.example.Application - user with ID '1234' just signed in  
+2023-09-24 19:46:59.306 [main] WARN  org.example.Application - Potential security vulnerability detected in user input: '...'  
+2023-09-24 19:46:59.306 [main] ERROR org.example.Application - Failed to connect to database: java.sql.SQLException: Connection refused  
+2023-09-24 19:46:59.306 [main] ERROR org.example.Application - An exception has been caught. java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3;	at org.example.Application.logWithExceptionHandling(Application.java:28);	at org.example.Application.main(Application.java:38) 
+2023-09-24 20:08:39.288 [main] INFO  org.example.Application - user with ID '1234' just signed in
+2023-09-24 20:08:39.290 [main] WARN  org.example.Application - Potential security vulnerability detected in user input: '...'
+2023-09-24 20:08:39.290 [main] ERROR org.example.Application - Failed to connect to database: java.sql.SQLException: Connection refused
+2023-09-24 20:08:39.290 [main] ERROR org.example.Application - An exception has been caught.
+2023-09-24 20:12:14.278 [main] INFO  org.example.Application - user with ID '1234' just signed in
+2023-09-24 20:12:14.279 [main] WARN  org.example.Application - Potential security vulnerability detected in user input: '...'
+2023-09-24 20:12:14.279 [main] ERROR org.example.Application - Failed to connect to database: java.sql.SQLException: Connection refused
+2023-09-24 20:12:14.279 [main] ERROR org.example.Application - An exception has been caught. java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3;	at org.example.Application.logWithExceptionHandling(Application.java:28);	at org.example.Application.main(Application.java:38)
