@@ -73,3 +73,26 @@ java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3
 	at org.example.Application.logWithExceptionHandling(Application.java:28) [classes/:?]
 	at org.example.Application.main(Application.java:38) [classes/:?]
 
+2023-09-24 19:36:41.084 [main] INFO  org.example.Application - %replace(){'[
+]+', '\n'}
+opex
+2023-09-24 19:36:41.085 [main] WARN  org.example.Application - %replace(){'[
+]+', '\n'}
+opex
+2023-09-24 19:36:41.085 [main] ERROR org.example.Application - %replace(){'[
+]+', '\n'}
+opex
+2023-09-24 19:36:41.085 [main] ERROR org.example.Application - %replace( java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3
+	at org.example.Application.logWithExceptionHandling(Application.java:28)
+	at org.example.Application.main(Application.java:38)
+){'[
+]+', '\n'}
+opex
+2023-09-24 19:39:24.335 [main] INFO  org.example.Application -  
+2023-09-24 19:39:24.338 [main] WARN  org.example.Application -  
+2023-09-24 19:39:24.338 [main] ERROR org.example.Application -  
+2023-09-24 19:39:24.338 [main] ERROR org.example.Application - java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3|	at org.example.Application.logWithExceptionHandling(Application.java:28)|	at org.example.Application.main(Application.java:38) 
+2023-09-24 19:39:57.803 [main] INFO  org.example.Application -  
+2023-09-24 19:39:57.805 [main] WARN  org.example.Application -  
+2023-09-24 19:39:57.805 [main] ERROR org.example.Application -  
+2023-09-24 19:39:57.805 [main] ERROR org.example.Application - java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3;	at org.example.Application.logWithExceptionHandling(Application.java:28);	at org.example.Application.main(Application.java:38) 

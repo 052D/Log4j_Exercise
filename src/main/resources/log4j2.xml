@@ -6,7 +6,7 @@
         </Console>
         <!-- File Appender -->
         <File name="file" fileName="logs/app.log" append="true">
-            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%xEx%n" />
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %throwable{separator(;)} %n" />
         </File>
     </Appenders>
 
